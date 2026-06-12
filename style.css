@@ -1,0 +1,258 @@
+.jp-title {
+  color: rgb(104, 194, 104);
+}
+:root{
+  --primary:#0A5C53;
+  --secondary:#12a594;
+  --bg:#f7fbfa;
+  --dark:#14221f;
+  --white:#fff;
+  --shadow:0 10px 30px rgba(0,0,0,.08);
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;              /* アイコンと文字の間隔 */
+    position: relative;
+    left: -15px;           /* アイコン＋文字をまとめて左へ移動 */
+}
+
+.logo-text {
+    font-size: 1.0rem;     /* 文字を少し大きく */
+    font-weight: 700;
+    white-space: nowrap;   /* 改行防止 */
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+  font-family:"Noto Sans JP",sans-serif;
+  background:var(--bg);
+  color:var(--dark);
+  line-height:1.8;
+}
+html{scroll-behavior:smooth}
+img{max-width:100%;display:block}
+.main-header{
+  position:fixed;top:0;left:0;width:100%;
+  background:rgba(255,255,255,.9);
+  backdrop-filter:blur(12px);
+  z-index:1000;
+  box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+.header-container{
+  max-width:1200px;margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;padding:18px 24px;
+}
+.desktop-nav ul{display:flex;gap:28px}
+.nav-link{
+  font-weight:600;
+  color:#333;
+  padding:12px 20px;
+  border-radius:30px;
+  transition:all 0.3s ease;
+}
+.nav-link.active {
+    color: white;
+    background-color: #0A5C53;
+    border-radius: 30px;
+}
+.nav-btn{
+  background:var(--primary);color:#fff;
+  padding:.8rem 1.2rem;
+  border-radius:999px;
+}
+.nav-link:hover {
+  background-color: #0A5C53;
+  color: white;
+}
+.billboard-section{
+  min-height:100vh;
+  position:relative;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+}
+.hero-image-container,
+.hero-bg-img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+}
+.billboard-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(0,0,0,.65),rgba(0,0,0,.2));
+}
+.billboard-content-wrapper{
+  position:relative;
+  z-index:2;
+  max-width:1200px;
+  margin:auto;
+  color:#fff;
+  padding:120px 24px;
+}
+.jp-title{font-size:4rem;font-weight:800}
+.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:750}
+section{padding:120px 24px}
+.concept-container,
+.message-wrapper,
+.contact-inner{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  gap:60px;
+  grid-template-columns:1fr 1fr;
+}
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  margin-top:60px;
+}
+.service-card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background:#fff;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  transition:.35s;
+}
+.service-img-container {
+  height: 200px;
+  overflow: hidden;
+}
+.service-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.service-card:hover{
+  transform:translateY(-8px);
+}
+.service-info{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  padding:24px
+}
+.service-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.service-btn{
+  margin-top:auto;
+  background:var(--primary);
+  color:#fff;
+  border:none;
+  padding:12px 18px;
+  border-radius:999px;
+  text-align:center;
+}
+.statistics-section{
+  background:var(--primary);
+  color:#fff;
+}
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+.stat-item{
+  background:rgba(255,255,255,.1);
+  padding:30px;
+  border-radius:20px;
+}
+.stat-number{font-size:3rem;font-weight:800}
+.timeline-scroll-box{
+  overflow-x:auto;
+  padding-bottom:20px;
+}
+.timeline-list{
+  display:flex;
+  gap:40px;
+  min-width:max-content;
+}
+.timeline-item{
+  width:300px;
+  background:#fff;
+  border-radius:20px;
+  padding:24px;
+  box-shadow:var(--shadow);
+}
+.service-modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  display:none;
+  justify-content:center;
+  align-items:center;
+  z-index:3000;
+}
+.service-modal-overlay.active{display:flex}
+.modal-box{
+  width:min(900px,90vw);
+  max-height:90vh;
+  overflow:auto;
+  background:#fff;
+  border-radius:24px;
+  padding:32px;
+}
+.clinic-form,
+.contact-info-panel{
+  background:#fff;
+  padding:32px;
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.form-group{margin-bottom:20px}
+input,select,textarea{
+  width:100%;
+  padding:14px;
+  border:1px solid #d8e1df;
+  border-radius:12px;
+}
+.form-submit-btn{
+  width:100%;
+  background:var(--primary);
+  color:#fff;
+  padding:16px;
+  border:none;
+  border-radius:12px;
+}
+footer{
+  background:#10201d;
+  color:#fff;
+  padding:60px 24px;
+}
+.fade-in-up,.scroll-reveal-left,.scroll-reveal-right,.scroll-reveal-up{
+  opacity:0;
+  transform:translateY(40px);
+  transition:.8s;
+}
+.revealed{
+  opacity:1 !important;
+  transform:none !important;
+}
+@media (max-width:900px){
+  .desktop-nav{display:none}
+  .concept-container,
+  .message-wrapper,
+  .contact-inner{
+    grid-template-columns:1fr;
+  }
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .jp-title{font-size:2.5rem}
+}
+.required {
+  color: red;
+}
+.form-submit-btn {
+  text-align: center;
+}

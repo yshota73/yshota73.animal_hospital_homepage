@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0A5C53">
+    <title>さいたま動物病院 | 先進の獣医療とあたたかい思いやりを</title>
+    <meta name="description" content="さいたま動物病院（Saitama Veterinary Clinic）は、犬・猫などの伴侶動物に対し、最新の設備と先進の獣医療、そしてご家族に寄り添うあたたかい思いやりをご提供します。一般診療から高度外科、予防医療、24時間救急対応まで。">
+    
+    <!-- CSS reset & CSS files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/db09b34328.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Floating Background Objects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="header-logo">
+                <span class="logo-icon"><i class="fas fa-paw"></i></span>
+                <span class="logo-text">Saitama Vet Clinic</span>
+            </a>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#concept" class="nav-link">CONCEPT</a></li>
+                    <li><a href="#services" class="nav-link">SERVICES</a></li>
+                    <li><a href="#statistics" class="nav-link">DATA</a></li>
+                    <li><a href="#history" class="nav-link">STORY</a></li>
+                    <li><a href="#message" class="nav-link">MESSAGE</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" id="hamburger-btn" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <!-- Mobile Nav Overlay -->
+<!--    <div class="mobile-nav-overlay" id="mobile-nav">
+        <nav class="mobile-nav-content">
+            <ul>
+                <li><a href="#home" class="mobile-link">HOME</a></li>
+                <li><a href="#concept" class="mobile-link">CONCEPT</a></li>
+                <li><a href="#services" class="mobile-link">SERVICES</a></li>
+                <li><a href="#statistics" class="mobile-link">CLINIC DATA</a></li>
+                <li><a href="#history" class="mobile-link">OUR STORY</a></li>
+                <li><a href="#message" class="mobile-link">MESSAGE</a></li>
+                <li><a href="#contact" class="mobile-link mobile-btn">CONTACT / Web予約</a></li>
+            </ul>
+            <div class="mobile-footer">
+                <p class="phone-link"><a href="tel:03-1234-5678"><i class="fas fa-phone-alt"></i> 03-1234-5678</a></p>
+                <p class="address"><i class="fas fa-map-marker-alt"></i> 東京都渋谷区代々木公園 1-2-3</p>
+            </div>
+        </nav>
+    </div> -->
+    <main>
+        <!-- Hero / Billboard Section -->
+        <section id="home" class="billboard-section">
+            <div class="hero-image-container">
+                <img src="img/assets/hero-bg.png" alt="Clean and modern veterinary hospital lobby" class="hero-bg-img">
+            </div>
+            
+            <div class="billboard-overlay"></div>
+            
+            <div class="billboard-content-wrapper">
+                <div class="title-area">
+                    <p class="eng-title fade-in-up">Saitama Veterinary Clinic</p>
+                    <div class="jp-title-row fade-in-up">
+                        <div class="title-line"></div>
+                        <h1 class="jp-title">さいたま動物病院</h1>
+                    </div>
+                </div>
+                <div class="mission-area fade-in-up">
+                    <p class="mission-subtitle">OUR MISSION</p>
+                    <p class="mission-lead">すべての小さな生命に、先進の医療とあたたかい思いやりを。</p>
+                    <p class="mission-desc">
+                        さいたま動物病院は、最新の獣医療技術と高度な医療機器を積極的に導入し、高度な診断・治療を提供する先進的な動物病院です。<br><br>
+                        しかし、本当に大切なのは技術だけではありません。大切な「家族」である伴侶動物たちの痛みや不安を和らげ、ご家族の想いに寄り添うこと。あたたかい心と確かな医療で、幸福な日常を全力でサポートいたします。
+                    </p>
+                </div>
+            </div>
+          <!--  <div class="scroll-indicator fade-in-up">
+                <span class="scroll-text">SCROLL</span>
+                <div class="scroll-line"></div>
+            </div> -->
+        </section>
+        <!-- Concept / Philosophy Section -->
+        <section id="concept" class="concept-section scroll-trigger">
+            <div class="concept-container">
+                <div class="concept-images scroll-reveal-left">
+                    <div class="concept-img-wrapper">
+                        <img src="img/bernhardjaeck-cat-10082073.jpg" alt="Veterinarian examining a small kitten" class="concept-main-img">
+                    </div>
+                    <div class="concept-decor-object"></div>
+                </div>
+                
+                <div class="concept-content scroll-reveal-right">
+                    <span class="section-tag">PHILOSOPHY</span>
+                    <h2 class="section-title">OUR CONCEPT</h2>
+                    <p class="section-title-jp">ー 私たちの想いとこだわり</p>
+                    <div class="concept-lead-box">
+                        <p class="concept-lead">「妥協しない高度医療」と「不安をゼロにする対話」を、すべての診療に。</p>
+                    </div>
+                    <p class="concept-text">
+                        私たちは、日々進歩する獣医学を追求し続け、常に高い専門知識と最新設備を維持しています。内科・外科をはじめ、各種専門外来（心臓、腫瘍、シニアケア）において妥協のない的確な医療を提供します。<br><br>
+                        また、ペットと言葉を交わせないからこそ、飼い主様との十分な対話を最優先にします。病状、治療方針、費用などを分かりやすく説明し、十分に納得いただいた上で二人三脚の治療をスタートさせます。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Services (Project) Section -->
+        <section id="services" class="services-section scroll-trigger">
+            <div class="services-container">
+                <div class="services-header">
+                    <div class="services-header-left scroll-reveal-left">
+                        <span class="section-tag">SERVICES</span>
+                        <h2 class="section-title">CLINIC SERVICES</h2>
+                        <p class="section-title-jp">ー 診療案内</p>
+                    </div>
+                    <div class="services-header-right scroll-reveal-right">
+                        <p class="services-intro-text">
+                            当院では、健康維持のための予防医療から、難治性疾患に対応する専門外来、緊急手術、リハビリテーションまで幅広く対応しています。それぞれの分野に習熟した獣医師が連携し、的確なアプローチを行います。
+                        </p>
+                    </div>
+                </div>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card scroll-reveal-up" data-service-id="general">
+                        <div class="service-img-container">
+                            <img src="img/tylijura-ai-generated-8985306.jpg" alt="General medicine examination of a golden retriever dog" class="service-img">
+                            <div class="service-card-decor"></div>
+                        </div>
+                        <div class="service-info">
+                            <div class="service-card-header">
+                                <span class="service-tag-sub">総合内科・外科</span>
+                                <h3 class="service-card-title">一般診療</h3>
+                            </div>
+                            <div class="service-card-body">
+                                <p class="service-card-desc">
+                                    日常の体調不良（下痢、嘔吐、皮膚炎など）の診断・治療から、怪我などの一般的な外科手術まで行います。初期対応から回復まで丁寧に寄り添います。
+                                </p>
+                                <button class="service-btn" aria-haspopup="dialog" aria-controls="modal-general">
+                                    <span>詳しく見る</span><i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card scroll-reveal-up" data-service-id="diagnostic" style="animation-delay: 0.1s;">
+                        <div class="service-img-container">
+                            <img src="img/sasint-surgery-1807541.jpg" alt="Advanced diagnostic lab equipment" class="service-img">
+                            <div class="service-card-decor"></div>
+                        </div>
+                        <div class="service-info">
+                            <div class="service-card-header">
+                                <span class="service-tag-sub">精密検査・先端機器</span>
+                                <h3 class="service-card-title">高度精密診断・手術</h3>
+                            </div>
+                            <div class="service-card-body">
+                                <p class="service-card-desc">
+                                    超音波、デジタルレントゲン、内視鏡、高性能麻酔監視モニターなどの先進的な医療設備を備え、早期発見と安全な外科的アプローチを提供します。
+                                </p>
+                                <button class="service-btn" aria-haspopup="dialog" aria-controls="modal-diagnostic">
+                                    <span>詳しく見る</span><i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card scroll-reveal-up" data-service-id="preventive" style="animation-delay: 0.2s;">
+                        <div class="service-img-container">
+                            <img src="img/mastertux-syringe-5904302.jpg" alt="Veterinary wellness check for a kitten" class="service-img">
+                            <div class="service-card-decor"></div>
+                        </div>
+                        <div class="service-info">
+                            <div class="service-card-header">
+                                <span class="service-tag-sub">ワクチン・フィラリア</span>
+                                <h3 class="service-card-title">予防医療・ペットドック</h3>
+                            </div>
+                            <div class="service-card-body">
+                                <p class="service-card-desc">
+                                    狂犬病予防や混合ワクチン接種、各種寄生虫予防のほか、年齢に合わせた総合健康検査プログラム（ペットドック）を提供し、病気の予防と早期対応に尽くします。
+                                </p>
+                                <button class="service-btn" aria-haspopup="dialog" aria-controls="modal-preventive">
+                                    <span>詳しく見る</span><i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card scroll-reveal-up" data-service-id="special" style="animation-delay: 0.3s;">
+                        <div class="service-img-container">
+                            <img src="img/birgl-dog-4372036.jpg" alt="Vet doctor taking care of a senior retriever dog" class="service-img">
+                            <div class="service-card-decor"></div>
+                        </div>
+                        <div class="service-info">
+                            <div class="service-card-header">
+                                <span class="service-tag-sub">腫瘍・心臓・シニア</span>
+                                <h3 class="service-card-title">専門外来・シニアケア</h3>
+                            </div>
+                            <div class="service-card-body">
+                                <p class="service-card-desc">
+                                    高齢期に伴う心臓疾患、腫瘍（がん）、白内障、関節疾患などの専門外来を設けています。緩和ケアや疼痛管理、QOL（生活の質）の向上を軸に対応します。
+                                </p>
+                                <button class="service-btn" aria-haspopup="dialog" aria-controls="modal-special">
+                                    <span>詳しく見る</span><i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modals for Services -->
+        <div class="service-modal-overlay" id="modal-general" role="dialog" aria-modal="true" aria-labelledby="modal-title-general">
+            <div class="modal-box">
+                <button class="modal-close" aria-label="閉じる"><i class="fas fa-times"></i></button>
+                <div class="modal-content">
+                    <span class="modal-tag">GENERAL MEDICAL CARE</span>
+                    <h3 id="modal-title-general" class="modal-title">一般診療について</h3>
+                    <p class="modal-intro">犬・猫はもちろん、体調に変化があった場合のファーストステップとしてのプライマリ・ケアを行います。</p>
+                    
+                    <div class="modal-body-section">
+                        <h4>主な診療項目</h4>
+                        <ul>
+                            <li>消化器科：嘔吐、下痢、食欲不振、消化器系感染症の治療</li>
+                            <li>皮膚科：アレルギー、真菌・細菌性皮膚炎、外耳炎の治療と薬用シャンプー指導</li>
+                            <li>眼科：結膜炎、角膜炎、涙流症、ドライアイの初期治療</li>
+                            <li>歯科：スケーリング（歯石除去）、抜歯、歯周病治療</li>
+                            <li>各種一般外科手術：去勢・避妊手術、軟部組織外科手術、外傷処置</li>
+                        </ul>
+                    </div>
+                    <div class="modal-body-section">
+                        <h4>診療の流れ</h4>
+                        <ol>
+                            <li><strong>問診・身体検査:</strong> 体温、体重測定、聴診、触診、眼・耳・口腔内チェックを行います。</li>
+                            <li><strong>必要に応じた検査の提案:</strong> 血液検査、便・尿検査など、状態に応じた検査をご相談します。</li>
+                            <li><strong>丁寧なインフォームド・コンセント:</strong> 病状や治療方針、費用について丁寧にご説明し、納得いただいた上で治療に入ります。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-modal-overlay" id="modal-diagnostic" role="dialog" aria-modal="true" aria-labelledby="modal-title-diagnostic">
+            <div class="modal-box">
+                <button class="modal-close" aria-label="閉じる"><i class="fas fa-times"></i></button>
+                <div class="modal-content">
+                    <span class="modal-tag">ADVANCED MEDICAL DIAGNOSTICS</span>
+                    <h3 id="modal-title-diagnostic" class="modal-title">高度精密診断・手術について</h3>
+                    <p class="modal-intro">先進の獣医療機器と確かな技術を用いて、見逃されやすい初期の微小病変や難治性疾患に対応します。</p>
+                    
+                    <div class="modal-body-section">
+                        <h4>導入している先進設備と検査方法</h4>
+                        <ul>
+                            <li><strong>高解像度超音波診断装置（エコー）:</strong> 心臓の動きや血流、腹部臓器の微細な変化をリアルタイムかつ非侵襲で検査します。</li>
+                            <li><strong>デジタルレントゲンシステム:</strong> 高速撮影で動物の負担を最小限に抑え、骨格から内臓まで鮮明な画像診断を行います。</li>
+                            <li><strong>内視鏡システム:</strong> 胃や食道の異物除去、消化管粘膜の生検（組織採取）を低侵襲で行えます。</li>
+                            <li><strong>高性能麻酔・呼吸監視モニター:</strong> 麻酔中の心拍、呼吸、血圧、血中酸素濃度等を多重監視し、極めて安全な手術管理を行います。</li>
+                        </ul>
+                    </div>
+                    <div class="modal-body-section">
+                        <h4>高度外科への対応</h4>
+                        <p>腫瘍切除術、消化管外科手術、椎間板ヘルニアなどの神経外科手術など、専門性の高い手術に対応しています。二次診療施設（大学病院など）とのネットワークも構築しており、万全の紹介体制を敷いています。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-modal-overlay" id="modal-preventive" role="dialog" aria-modal="true" aria-labelledby="modal-title-preventive">
+            <div class="modal-box">
+                <button class="modal-close" aria-label="閉じる"><i class="fas fa-times"></i></button>
+                <div class="modal-content">
+                    <span class="modal-tag">PREVENTIVE MEDICINE & WELLNESS</span>
+                    <h3 id="modal-title-preventive" class="modal-title">予防医療・ペットドックについて</h3>
+                    <p class="modal-intro">「治療する」から「予防する」へ。長く健康な毎日を送るためのトータルヘルスチェックプランです。</p>
+                    
+                    <div class="modal-body-section">
+                        <h4>基本的な予防メニュー</h4>
+                        <ul>
+                            <li><strong>各種混合ワクチン:</strong> 感染力の強い病気から動物を守るため、ライフスタイルに応じた最適な接種プランを提示します。</li>
+                            <li><strong>フィラリア・寄生虫予防:</strong> 蚊の活動時期に合わせたフィラリア予防薬の処方、ノミ・マダニ・お腹の寄生虫の駆除薬をご提案します。</li>
+                            <li><strong>狂犬病予防注射:</strong> 法律で義務付けられた年1回の接種と登録代行手続きを行います。</li>
+                        </ul>
+                    </div>
+                    <div class="modal-body-section">
+                        <h4>ミラ・ペットドック（健康診断プラン）</h4>
+                        <p>言葉を話せない動物たちは、病気を隠す傾向があります。特に7歳以上のシニア期に入ったペットには、年1〜2回の健康診断を推奨します。</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>コース名</th>
+                                    <th>推奨対象</th>
+                                    <th>主な検査内容</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ライトコース</td>
+                                    <td>若齢〜5歳</td>
+                                    <td>身体検査、血液一般、尿検査、便検査</td>
+                                </tr>
+                                <tr>
+                                    <td>スタンダードコース</td>
+                                    <td>全年齢（特にシニア初期）</td>
+                                    <td>ライトコースの内容 ＋ 胸部・腹部レントゲン、腹部エコー</td>
+                                </tr>
+                                <tr>
+                                    <td>プレミアムコース</td>
+                                    <td>7歳以上のシニア期</td>
+                                    <td>スタンダードの内容 ＋ 心臓エコー、血圧測定、内分泌（甲状腺など）検査</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-modal-overlay" id="modal-special" role="dialog" aria-modal="true" aria-labelledby="modal-title-special">
+            <div class="modal-box">
+                <button class="modal-close" aria-label="閉じる"><i class="fas fa-times"></i></button>
+                <div class="modal-content">
+                    <span class="modal-tag">SPECIALIZED CLINIC & SENIOR CARE</span>
+                    <h3 id="modal-title-special" class="modal-title">専門外来・シニアケアについて</h3>
+                    <p class="modal-intro">犬・猫も高齢化社会を迎えています。がん、心臓病、慢性腎臓病など、長期ケアが必要な疾患に対して専門的なサポートを行います。</p>
+                    
+                    <div class="modal-body-section">
+                        <h4>腫瘍科（がん治療）外来</h4>
+                        <p>外科切除、化学療法（抗がん剤治療）、生活の質を優先する緩和医療まで、飼い主様のライフスタイルやご希望に合わせて最適なアプローチをご相談します。決して諦めず、その子にとって何が一番幸せかを最優先に考えます。</p>
+                    </div>
+                    <div class="modal-body-section">
+                        <h4>循環器科（心臓病）外来</h4>
+                        <p>特に高齢の小型犬に多い「僧帽弁閉鎖不全症」や猫の「肥大型心筋症」に対し、レントゲン・エコーを用いた正確なステージ判定を行い、適正な内科的薬物治療および食事指導を継続します。</p>
+                    </div>
+                    <div class="modal-body-section">
+                        <h4>QOL（生活の質）を重視するシニアケア・緩和医療</h4>
+                        <ul>
+                            <li>痛みのコントロール：関節炎や末期がんによる苦痛を取り除くためのペインコントロールを積極的に行います。</li>
+                            <li>ご自宅での介護指導：寝たきり予防、床ずれ防止、流動食の与え方、自宅点滴の指導など、ご家族の負担を減らすケアサポート。</li>
+                            <li>終末期医療：苦痛を取り除くケアと、ご家族とのあたたかい時間を最優先にする取り組み。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Statistics Section -->
+        <section id="statistics" class="statistics-section scroll-trigger">
+            <div class="statistics-image-container">
+                <div class="stats-overlay"></div>
+                
+                <div class="stats-text-wrapper scroll-reveal-left">
+                   <!-- <span class="section-tag tag-white">STATISTIC</span> -->
+                    <h2 class="section-title text-white">CLINIC DATA</h2>
+                    <p class="section-title-jp text-white-op">ー 数字で見る当院</p>
+                    <p class="stats-lead-text">
+                        さいたま動物病院がご家族の皆様に選ばれ続けている証を、数字という透明な実績でお伝えいたします。すべての数値は、高度な設備と誠実な取り組みが生んだ結果です。
+                    </p>
+                </div>
+            </div>
+            <div class="statistics-data-container scroll-reveal-right">
+                <div class="stats-grid">
+                    <!-- Stat 1 -->
+                    <div class="stat-item scroll-reveal-up">
+                        <p class="stat-label">年間診療件数</p>
+                        <p class="stat-number-wrapper">
+                            <span class="stat-number" data-target="12480">0</span>
+                            <span class="stat-unit">件</span>
+                        </p>
+                    </div>
+                    <!-- Stat 2 -->
+                    <div class="stat-item scroll-reveal-up" style="animation-delay: 0.1s;">
+                        <p class="stat-label">救急・手術対応率</p>
+                        <p class="stat-number-wrapper">
+                            <span class="stat-number" data-target="98.6" data-decimal="1">0</span>
+                            <span class="stat-unit">%</span>
+                        </p>
+                    </div>
+                    <!-- Stat 3 -->
+                    <div class="stat-item scroll-reveal-up" style="animation-delay: 0.2s;">
+                        <p class="stat-label">救急平均待機時間</p>
+                        <p class="stat-number-wrapper">
+                            <span class="stat-unit">約</span>
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-unit">分</span>
+                        </p>
+                    </div>
+                    <!-- Stat 4 -->
+                    <div class="stat-item scroll-reveal-up" style="animation-delay: 0.3s;">
+                        <p class="stat-label">在籍獣医師・看護師</p>
+                        <p class="stat-number-wrapper">
+                            <span class="stat-number" data-target="24">0</span>
+                            <span class="stat-unit">名</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="stats-period-info">※集計期間：2025年1月〜12月の当院実績に基づきます</p>
+            </div>
+        </section>
+        <!-- Our Story (History) Section -->
+        <section id="history" class="history-section scroll-trigger">
+            <div class="history-intro">
+                <div class="history-intro-content scroll-reveal-left">
+                    <span class="section-tag">OUR HISTORY</span>
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="section-title-jp">ー 当院の歩みと進化</p>
+                    <p class="history-desc">
+                        「ミラ」は、ラテン語で「素晴らしい」「驚くべきもの」、そして日本語の「未来」に由来します。動物たちと飼い主様が笑顔で暮らせる素晴らしい未来を目指し、当院が重ねてきた革新と歩みの歴史です。
+                    </p>
+                </div>
+                <div class="history-intro-decor"></div>
+            </div>
+            <!-- Horizontal Scroll Timeline -->
+            <div class="timeline-container scroll-reveal-right">
+                
+                <div class="timeline-scroll-box" id="timeline-scroll">
+                    <div class="timeline-line-path"></div>
+                    <ul class="timeline-list">
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2018.04</p>
+                            <h4 class="timeline-item-title">ミラ動物病院 創設</h4>
+                            <p class="timeline-item-text">
+                                東京都渋谷区にて、先進獣医療を提供する専門病院として一次診療・二次診療体制で開院。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2019.10</p>
+                            <h4 class="timeline-item-title">24時間対応 救急外来開設</h4>
+                            <p class="timeline-item-text">
+                                地域に不足していた「夜間・緊急時のセーフティネット」として、24時間常駐救急窓口をスタート。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2020.07</p>
+                            <h4 class="timeline-item-title">高度CT・MRIセンター竣工</h4>
+                            <p class="timeline-item-text">
+                                超高性能8列マルチスライスCT及び最新動物用MRIを導入し、画像精密診断力を飛躍的に向上。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2021.11</p>
+                            <h4 class="timeline-item-title">臨床研究・獣医連携体制の設立</h4>
+                            <p class="timeline-item-text">
+                                近隣の一次診療クリニックと連携強化。高度手術の受託や、循環器領域における臨床研究結果の学会発表を開始。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2022.08</p>
+                            <h4 class="timeline-item-title">新棟「高度手術医療センター」増築</h4>
+                            <p class="timeline-item-text">
+                                陽圧無菌手術室2室、ICUケージ12室を増床。腫瘍外科や神経外科などの難手術に完全対応するクリーン体制を構築。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2023.05</p>
+                            <h4 class="timeline-item-title">オンライン相談・遠隔テレヘルス稼働</h4>
+                            <p class="timeline-item-text">
+                                通院困難なシニア期ペットや、セカンドオピニオン希望者向けのビデオ通話オンライン相談システムを独自導入。
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <p class="timeline-date">2025.03</p>
+                            <h4 class="timeline-item-title">年間来院数 12,000件突破</h4>
+                            <p class="timeline-item-text">
+                                豊富な実績と温かいサポート姿勢が評価され、累計カルテ数・年間診療件数において過去最大規模を記録。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="timeline-scroll-progress">
+                    <div class="timeline-bar-bg">
+                        <div class="timeline-bar-fill" id="timeline-bar-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Message (Representative) Section -->
+        <section id="message" class="message-section scroll-trigger">
+            <div class="message-container">
+                <div class="message-header-mobile">
+                    <span class="section-tag">MESSAGE</span>
+                    <h2 class="section-title">Director Message</h2>
+                    <p class="section-title-jp">ー 院長挨拶</p>
+                </div>
+                
+                <div class="message-wrapper">
+                    <div class="director-profile-area scroll-reveal-left">
+                        <div class="director-img-wrapper">
+                            <img src="img/img_yoshimoto2023.jpg" alt="Dr. YOSHIMOTO HIROYUKI - Director of Saitama Veterinary Clinic" class="director-img">
+                        </div>
+                        <div class="director-info">
+                            <h3 class="director-post">さいたま動物病院 院長・獣医学博士</h3>
+                            <p class="director-name">嘉本 浩之 <span class="name-eng">YOSHIMOTO HIROYUKI</span></p>
+                        </div>
+                    </div>
+                    <div class="director-message-area scroll-reveal-right">
+                        <div class="message-header-desktop">
+                            <span class="section-tag">MESSAGE</span>
+                            <h2 class="section-title">Director Message</h2>
+                            <p class="section-title-jp">ー 院長挨拶</p>
+                        </div>
+                        
+                        <div class="message-content-text">
+                            <h3 class="message-lead-phrase">「話せない家族」の心の声に耳を澄まし、<br>最良の治療プランを共に創ります。</h3>
+                            <p class="message-body">
+                                動物たちは、痛みを隠そうとし、言葉で不調を訴えることができません。だからこそ、当院では最新の血液検査、エコー、CT・MRIを駆使し、身体が発する微小なサインを見逃さないことに全力を尽くしています。<br><br>
+                                私たちが目指すのは、「自分の愛犬や愛猫を通わせたい病院」です。最先端の先進医療を提供することは当然の責務であり、その上で、動物に過度な苦痛を与えず、ご家族が納得・安心して任せられる治療方針を一緒に模索します。<br><br>
+                                どのような些細な疑問や不安でも、お気軽に私たちにご相談ください。さいたま動物病院は、いつでも皆様と大切な家族の頼れるパートナーであり続けます。
+                            </p>
+                            
+                            <div class="director-bio">
+                                <h4>【略歴・所属】</h4>
+                                <ul>
+                                    <li>東京大学農学部獣医学課程 卒業・獣医学博士号取得</li>
+                                    <li>同大学付属動物医療センター 外科研修医を経て総合病院副院長を歴任</li>
+                                    <li>2018年 ミラ動物病院 設立・院長就任</li>
+                                    <li>日本獣医がん学会 認定医 / 日本獣医循環器学会 会員</li>
+                                    <li>日本獣医エキゾチック動物学会 会員</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-trigger">
+            <div class="contact-inner">
+                <!-- Contact Info Side -->
+                <div class="contact-info-panel scroll-reveal-left">
+                    <div class="contact-header">
+                        <span class="section-tag">CONTACT & BOOKING</span>
+                        <h2 class="section-title">ご予約・お問い合わせ</h2>
+                        <p class="section-title-jp">ー 相談・事前予約窓口</p>
+                    </div>
+                    <p class="contact-lead-desc">
+                        診療予約やペットドックのご相談、その他のお問い合わせを受け付けております。当日の緊急診療につきましては、直接お電話にてご連絡ください。
+                    </p>
+                    <div class="emergency-call-card">
+                        <div class="emergency-icon"><i class="fas fa-ambulance"></i></div>
+                        <div class="emergency-body">
+                            <p class="emergency-label">夜間・救急の緊急ダイヤル</p>
+                            <p class="emergency-phone"><a href="tel:03-1234-5678">03-1234-5678</a></p>
+                            <p class="emergency-note">※夜間20:00〜翌朝9:00は時間外診療費が別途発生いたします。</p>
+                        </div>
+                    </div>
+                    <div class="business-hours-wrapper">
+                        <h4>診療時間案内</h4>
+                        <table class="hours-table">
+                            <thead>
+                                <tr>
+                                    <th>診療時間</th>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                    <th>土</th>
+                                    <th>日/祝</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>09:00 - 12:00</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>／</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>▲</td>
+                                </tr>
+                                <tr>
+                                    <td>16:00 - 19:00</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>／</td>
+                                    <td>●</td>
+                                    <td>▲</td>
+                                    <td>／</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="hours-note">【休診日】木曜・日曜祝日午後　【▲】土曜午後・日曜祝日午前は13:00〜17:00予約のみ診療</p>
+                    </div>
+                </div>
+                <!-- Contact Form Side -->
+                <div class="contact-form-panel scroll-reveal-right">
+                    <form id="clinic-contact-form" class="clinic-form" novalidate>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-name">お名前　<span class="required">必須</span></label>
+                                <input type="text" id="form-name" name="name" placeholder="山田 太郎" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone">電話番号　<span class="required">必須</span></label>
+                                <input type="tel" id="form-phone" name="phone" placeholder="09012345678" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">メールアドレス　<span class="required">必須</span></label>
+                            <input type="email" id="form-email" name="email" placeholder="example@mira-vet.com" required>
+                        </div>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-pet-type">動物種　<span class="required">必須</span></label>
+                                <select id="form-pet-type" name="pet_type">
+                                    <option value="dog">犬 (Dog)</option>
+                                    <option value="cat">猫 (Cat)</option>
+                                    <option value="rabbit">うさぎ (Rabbit)</option>
+                                    <option value="other">その他 (Other)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-inquiry-type">お問い合わせ内容　<span class="required">必須</span></label>
+                                <select id="form-inquiry-type" name="inquiry_type" required>
+                                    <option value="">選択してください</option>
+                                    <option value="booking">診療の事前予約（※確定ではありません）</option>
+                                    <option value="petdock">ペットドック（健康診断）のご相談</option>
+                                    <option value="second_opinion">セカンドオピニオン相談</option>
+                                    <option value="general">一般のお問い合わせ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">メッセージ・症状など　<span class="required">必須</span></label>
+                            <textarea id="form-message" name="message" rows="5" placeholder="ご予約希望の候補日時や、気になる症状、ご質問などを具体的にご記入ください。" required></textarea>
+                        </div>
+                        <div class="form-policy-check">
+                            <input type="checkbox" id="form-policy" name="policy" required>
+                            <label for="form-policy">
+                                当院の<a href="#privacy" target="_blank" class="policy-link">プライバシーポリシー</a>に同意する
+                            </label>
+                            <span class="error-msg" id="error-policy">ポリシーに同意いただく必要があります</span>
+                        </div>
+                        <button type="submit" class="form-submit-btn">
+                            <span class="btn-text">この内容で送信する</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                    <!-- Success Message (hidden initially) -->
+                    <div id="form-success-message" class="form-success-card" style="display: none;">
+                        <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>お問い合わせを受け付けました</h3>
+                        <p>
+                            メッセージを送信いただきありがとうございます。確認の自動送信メールをお送りいたしました。通常、2営業日以内に担当スタッフよりお電話またはメールにて折り返しご連絡いたします。<br><br>
+                            万が一返信がない場合や、お急ぎのご予約・緊急の症状につきましては、直接お電話（03-1234-5678）にてお問い合わせください。
+                        </p>
+                        <button class="success-reset-btn" id="success-reset-btn">戻る</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-icon"><i class="fas fa-paw"></i></span>
+                    <span class="logo-text">さいたま動物病院</span>
+                </a>
+              <!--  <p> class="brand-sub">さいたま動物病院</p>
+                <p class="brand-desc">
+                    犬・猫をはじめとする大切な家族に、最良の獣医療と安心を提供する総合動物病院です。24時間体制の救急外来と、先進の医療機器を備えた専門ケアを提供します。
+                </p> -->
+            </div>
+            
+            <div class="footer-links-group">
+              <!--  <div class="footer-col">
+                    <h4>LINKS</h4>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#concept">CONCEPT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#statistics">CLINIC DATA</a></li>
+                        <li><a href="#history">OUR STORY</a></li>
+                        <li><a href="#message">MESSAGE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SERVICES DETAILS</h4>
+                    <ul>
+                        <li><a href="#services" class="modal-trigger-link" data-target="modal-general">総合内科・一般外科</a></li>
+                        <li><a href="#services" class="modal-trigger-link" data-target="modal-diagnostic">精密CT・MRI画像診断</a></li>
+                        <li><a href="#services" class="modal-trigger-link" data-target="modal-preventive">混合ワクチン・予防</a></li>
+                        <li><a href="#services" class="modal-trigger-link" data-target="modal-special">がん・循環器シニア外来</a></li>
+                    </ul>
+                </div> -->
+                <div class="footer-col">
+                  <!--  <h4>CLINIC INFO</h4> -->
+                    <p class="clinic-tel"><i class="fas fa-phone-alt"></i> 048-687-5688</p>
+                    <p class="clinic-addr">
+                        〒337-0053<br>
+                        さいたま市見沼区大和田町2-1008<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="terms-links">
+                <a href="#privacy">PRIVACY POLICY</a>
+              <!--  <a href="#terms">TERMS OF USE</a>
+                <a href="#contact">EMERGENCY GUIDE</a> -->
+            </div>
+            <p class="copyright">© 2026 Saitama Vet Clinic. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
